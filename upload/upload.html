@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="15W直播发布">
+    <link rel="apple-touch-icon-precomposed" href="ui/img/icon.png">
+    <link rel="stylesheet" type="text/css" href="ui/css/index.css?v2">
+    <title>15W直播发布平台</title>
+</head>
+
+<body>
+    <div class="live-bar">
+        <h1>要我玩现场直击发布
+            <p>APP首页推荐</p>
+        </h1>
+        <a href="?tn=select">
+            < 返回</a>
+    </div>
+    <div class="form-room">
+        <div class="scale form-radio"><label class="scale-1 iconfont checked"><input type="radio" name="types" value="pic" checked><span>图文直播</span></label><label class="scale-1 iconfont"><input type="radio" name="types" value="text"><span>热点聚焦</span></label></div><em></em>
+        <div class="form-textarea"><textarea placeholder="这里输入直播文字内容" name="text" id="text"></textarea></div>
+        <div class="form-photo-room">
+            <div class="form-photo"><input name='photo' id="resultCanvas2" type="hidden"><label><div class="iconfont"><input type="file" accept="image/*;" name="camera"  id="fileInput"><b>点击上传照片</b></div></label>
+                <div class="form-img"><img id="canvas"></div>
+            </div><span><i></i><i></i></span><span><i></i><i></i></span></div>
+        <div class="form-submit"><a href="javascript:;" class="submit">检查无误确认提交</a>
+            <a href="javascript:;" class="reset"></a>
+        </div>
+    </div>
+    <script type="text/javascript" src="ui/js/zepto.min.js"></script>
+    <script src="ui/js/lrz.bundle.js"></script>
+    <script type="text/javascript" src="ui/js/base.js"></script>
+    <script type="text/javascript" src="ui/js/index.js"></script>
+</body>
+
+</html>
